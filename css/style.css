@@ -1,0 +1,45 @@
+body{
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+.farmcontainer{
+    background-color: burlywood;
+    padding: 5px;
+    display: inline-block;
+    border-style: groove;
+    border-radius: 5px;
+    border: 10px solid burlywood;
+}
+.populationtags{
+    display: inline-block;
+    background-color: brown;
+
+    padding: .2em;
+    text-align: center;
+}
+
+.populationtags label{
+    display: inline-block;
+    font-weight: bold;
+    color: chartreuse;
+    font-size: 1.2em;
+}
+.populationtags input{
+    display: inline-block;
+    width: 30px;
+    background: burlywood;
+    color: black;
+    font-weight: bold;
+}
+.reloj{
+    padding: 2px;
+    border-radius:5px;
+    background: black;
+    color:green;
+    width: 70px;
+    font-size: 1.2em;
+    font-family: 'Patrick Hand', cursive;
+}
